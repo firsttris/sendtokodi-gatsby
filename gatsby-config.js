@@ -4,7 +4,7 @@ module.exports = {
   pathPrefix: '/sendtokodi-gatsby',
   siteMetadata: {
     title: 'sendtokodi',
-    siteUrl: `https://teufel-it.de`
+    siteUrl: `https://firsttris.github.io/sendtokodi-gatsby`
   },
   plugins: [
     'gatsby-plugin-typescript',

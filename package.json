@@ -1,7 +1,7 @@
 {
-  "name": "teufel-it-gatsby",
-  "description": "teufel-it gatsby",
-  "homepage": "https://teufel-it.de",
+  "name": "sendtokodi-gatsby",
+  "description": "sendtokodi gatsby",
+  "homepage": "https://firsttris.github.io/sendtokodi-gatsby",
   "version": "1.0.0",
   "author": "tristan teufel <info@teufel-it.de>",
   "dependencies": {
@@ -34,9 +34,9 @@
   ],
   "license": "UNLICENSED",
   "scripts": {
-    "build": "rm -Rf public && rm -Rf .cache && gatsby build",
+    "build": "rm -Rf public && rm -Rf .cache && gatsby build --prefix-paths",
     "develop": "gatsby develop",
-    "predeploy": "rm -Rf public && rm -Rf .cache && npm run build --prefix-paths",
+    "predeploy": "rm -Rf public && rm -Rf .cache && npm run build",
     "deploy": "gh-pages -d public",
     "prod": "gatsby serve"
   },

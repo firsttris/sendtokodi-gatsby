@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import { navigate } from 'gatsby';
+import { navigate,  } from 'gatsby';
 import * as React from 'react';
 import './../assets/fontawesome/css/all.css';
 
