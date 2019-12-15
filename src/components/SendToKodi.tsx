@@ -16,6 +16,7 @@ interface Props {
   sendToKodiScreen4: FixedObject;
   logo: FixedObject;
   background: FixedObject;
+  languageButton: JSX.Element;
 }
 
 interface State {}
@@ -26,6 +27,7 @@ export class SendToKodi extends React.Component<Props, State> {
       <div className="container-fluid" style={{ backgroundImage: `url(${this.props.background})` }}>
         <div style={{ height: '25px' }} />
         <div className="container">
+          <div className="row justify-content-end">{this.props.languageButton}</div>
           <div className="row">
             <div className="col">
               <h2>SendToKodi</h2>
